@@ -1,0 +1,377 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font: 12px "微软雅黑", Arial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+/* Layout */
+#header,
+#main,
+#footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+#header {
+  height: 62px;
+  background: #232323;
+  overflow: hidden;
+}
+
+/* Header > Logo */
+.logo {
+  float: left;
+}
+
+.logo h1 a {
+  display: block;
+  width: 178px;
+  height: 62px;
+  text-indent: -9999px;
+  background: url(../images/logo.jpg) no-repeat center;
+}
+
+/* Header > Nav */
+.nav {
+  float: right;
+  overflow: hidden;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 0 15px;
+  height: 62px;
+  font-size: 14px;
+  line-height: 62px;
+  color: #fff;
+  background: url(../images/line01.jpg) no-repeat right center;
+}
+
+.nav ul li a:hover {
+  background: #f15a23;
+}
+
+/* Main */
+
+/* Main > Banner */
+.banner a {
+  display: block;
+  width: 1000px;
+  height: 420px;
+  background: url(../images/banner.jpg) left top;
+}
+
+/* Main > Service */
+.service {
+  padding: 35px 0 27px 0;
+  background: #f5f5f5;
+}
+
+.service ul {
+  overflow: hidden;
+}
+
+.service ul li {
+  float: left;
+}
+
+.service ul li a {
+  display: block;
+  padding-top: 20px;
+  width: 250px;
+  height: 268px;
+  text-align: center;
+  background: url(../images/line02.jpg) no-repeat right;
+}
+
+.service ul li a:hover {
+  background: #eaeaea;
+}
+
+.service ul li a h2 {
+  margin-top: 1px;
+  height: 40px;
+  font-size: 22px;
+  line-height: 40px;
+  color: #252e3b;
+}
+
+.service ul li a:hover h2 {
+  color: #41a7f2;
+}
+
+.service h3, .service .detail {
+  font-size: 14px;
+}
+
+.service h3 {
+  margin-top: 6px;
+  height: 20px;
+  line-height: 20px;
+  color: #546c7d;
+}
+
+.service .detail {
+  margin-top: 12px;
+}
+
+.service .detail p {
+  height: 18px;
+  line-height: 18px;
+  color: #a3bccd;
+}
+
+/* Main > Others */
+.others {
+  padding: 40px 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.others h2 {
+  height: 27px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #222;
+}
+
+/* Main > Others > News */
+.news {
+  float: left;
+  padding-right: 18px;
+  overflow: hidden;
+}
+
+.news .img {
+  float: left;
+}
+
+.news .img a {
+  display: block;
+  width: 301px;
+  height: 228px;
+  background: url(../images/img.jpg) no-repeat;
+}
+
+.news .txt {
+  float: left;
+  padding-left: 15px;
+  width: 320px;
+  height: 228px;
+}
+
+.news .txt .headline {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+}
+
+.news .txt .headline h3 {
+  padding: 10px 0;
+}
+
+.news .txt .headline h3 a {
+  display: block;
+  width: 320px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news .txt .headline h3 a:hover {
+  color: #f15a23;
+}
+
+.news .txt .headline p {
+  line-height: 18px;
+  text-indent: 2em;
+  color: #999;
+}
+
+.news .txt ul {
+  padding-top: 10px;
+}
+
+.news .txt ul li {
+  padding: 3px 0 3px 12px;
+  background: url(../images/rightward.jpg) no-repeat 1px center;
+}
+
+.news .txt ul li a {
+  display: block;
+  width: 300px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news .txt ul li a:hover {
+  color: #f15a23;
+}
+
+/* Main > Others > Contact */
+.contact {
+  float: left;
+  border-left: 1px solid #ddd;
+  padding-left: 23px;
+  width: 322px;
+  height: 228px;
+}
+
+.contact .qq-chat {
+  padding: 14px 0 22px 0;
+  width: 322px;
+  height: 23px;
+  font-size: 0;
+}
+
+.contact .qq-chat a {
+  display: inline-block;
+  margin-right: 21px;
+  width: 140px;
+  height: 23px;
+  background: url(../images/qq.jpg) no-repeat left center;
+}
+
+.contact p {
+  height: 41px;
+  font-size: 24px;
+  line-height: 41px;
+  color: #666;
+}
+
+.contact ul li {
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+/* Footer */
+
+/* Footer > Footer Top */
+.footer-top {
+  background: #222;
+  overflow: hidden;
+}
+
+.footer-top>div {
+  float: left;
+}
+
+/* Footer > Footer Top > Footer Top Left */
+.footer-top-left {
+  padding-top: 45px;
+  width: 493px;
+  height: 169px;
+  overflow: hidden;
+  background: url(../images/line03.jpg) no-repeat right center;
+}
+
+.footer-top-left dl {
+  float: left;
+  padding: 0 30px 0 10px;
+}
+
+.footer-top-left dl dt {
+  padding-bottom: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-top-left dl dd a {
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #999;
+}
+
+.footer-top-left dl dd a:hover {
+  text-decoration: underline;
+}
+
+/* Footer > Footer Top > Footer Top Center */
+.footer-top-center {
+  width: 315px;
+  height: 214px;
+  background: url(../images/map.jpg) no-repeat center, url(../images/line03.jpg) no-repeat right center;
+}
+
+/* Footer > Footer Top > Footer Top Right */
+.footer-top-right {
+  padding-top: 166px;
+  width: 192px;
+  height: 48px;
+  background: url(../images/qr.jpg) no-repeat center 20px;
+}
+
+.footer-top-right p {
+  height: 18px;
+  line-height: 18px;
+  color: #464646;
+  text-align: center;
+}
+
+/* Footer > Footer Bottom / Copyright */
+.copyright {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  color: #999;
+  background: #101010;
+}
+
+.copyright a {
+  color: #999;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+}
